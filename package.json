@@ -1,0 +1,29 @@
+{
+    "author": "me@benanderson.nz",
+    "dependencies": {},
+    "keywords": [],
+    "name": "watchface-b",
+    "pebble": {
+        "displayName": "Watchface-B",
+        "enableMultiJS": true,
+        "messageKeys": [],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "characterRegex": "[0-9:.a-z/]",
+                    "file": "fonts/NABALA.ttf",
+                    "name": "NABALA_SUBSET_24",
+                    "targetPlatforms": null,
+                    "type": "font"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "uuid": "407db40e-1404-4a5f-907c-e8098da4d9ce",
+        "watchapp": {
+            "watchface": false
+        }
+    },
+    "version": "1.0.0"
+}
